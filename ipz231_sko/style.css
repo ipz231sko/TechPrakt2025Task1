@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #7FB685;
-    color: #fff;
+    color: #6C969D;
 }
 header {
     background-color: #426A5A;
@@ -12,4 +12,19 @@ header {
     padding: 20px 0;
     font-size: 1.8em;
     font-weight: bold;
+}
+.news {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    overflow: hidden;
+}
+
+.news:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
